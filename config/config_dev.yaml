@@ -1,0 +1,30 @@
+log:
+  stdout: false
+  log_level: debug
+
+note:
+  default_author: "dev_author"
+  digest_length: 100
+
+pagination:
+  page_size: 5
+  win_size: 9
+
+# password: dev123
+auth:
+  hashed_password: "$2a$10$OxFjMemSzMvUr1s20AGPe.M/Jg/48zsrpcdQ9XmI8c9uEkV3vhYXS"
+
+mysql:
+  addr: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: ""
+
+redis:
+  addr: "127.0.0.1"
+  port: 6379
+  db: 0
+
+server:
+  port: 13000
+
